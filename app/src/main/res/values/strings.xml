@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SafarNama</string>
+    <string name="email_hint" />
+    <string name="error_view" />
+    <string name="password" />
+    <string name="user_domain_com" />
+    <string name="welcome" />
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_account">My Account</string>
+
+    <string name="map_key" translatable="false">AIzaSyD9Oixqe-c6CZQvRTOWFIDr3xRBO-Xxqec</string>
+    <string name="course_name" />
+    <string name="course_rating" />
+    <string name="course_rating1" />
+    <string name="course_rating2" />
+    <string name="logout">Logout</string>
+
+
+</resources>

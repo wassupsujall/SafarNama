@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Detail4Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/tag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tag2"
+            android:textColor="#A5A5A5"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_star" />
+
+        <TextView
+            android:id="@+id/tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            android:text="Tag"
+            android:textColor="#A5A5A5"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_baseline_fastfood_24" />
+
+        <TextView
+            android:id="@+id/tag1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tag1"
+            android:textColor="#A5A5A5"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_baseline_preview_24" />
+
+        <TextView
+            android:id="@+id/tag3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tag3"
+            android:textColor="#A5A5A5"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_baseline_wifi_24" />
+
+        <TextView
+            android:id="@+id/tag4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tag4"
+            android:textColor="#A5A5A5"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_baseline_pool_24" />
+
+        <TextView
+            android:id="@+id/tag5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tag5"
+            android:autoLink="web"
+            android:textColor="#A5A5A5"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_baseline_web_24" />
+
+
+
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
